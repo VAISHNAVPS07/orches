@@ -1,0 +1,8 @@
+{
+  "agents": [
+    {"id":"hermes","label":"Hermes","executable":"hermes","enabled":true,"command_template":["{executable}","chat","-q","{prompt}"]},
+    {"id":"opencode","label":"OpenCode","executable":"opencode","enabled":true,"command_template":["{executable}","run","{prompt}"]},
+    {"id":"claude","label":"Claude Code","executable":"claude","enabled":true,"command_template":["{executable}","-p","{prompt}"]},
+    {"id":"codex","label":"Codex","executable":"codex","enabled":true,"command_template":["{executable}","exec","{prompt}"]}
+  ]
+}
